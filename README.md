@@ -25,7 +25,9 @@ In order to prove that the GAN converged to generating data within the dataset d
 <img src="img/convergence.png">
 
 Results after 9 epochs of training on a single image. (right side is ground truth)
+
 **Row 1:** 16x16 convolutional layers
+
 **Row 2:** 64x64 convolutional layers
 
 #### Data augmentation
@@ -44,6 +46,7 @@ The results show clear similarities to the dataset (structured elements, shadows
 ### Colored results
 
 > Work in progress
+>
 > Results with first model after ~200 epochs of training:
 > <img src="img/color_training.png" width=500>
 
