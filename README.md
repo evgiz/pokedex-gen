@@ -30,7 +30,7 @@ Results after 9 epochs of training on a single image. (right side is ground trut
 
 **Row 2:** 64x64 convolutional layers
 
-## Data augmentation
+### Data augmentation
 
 My dataset consisted of three spritesheets of pokemon, which had a total of about 1000 unique sprites. In order to increase the size of the dataset I have used simple augmentation such as flipping and hue shifting, increasing the number of images by a factor of 5.
 
