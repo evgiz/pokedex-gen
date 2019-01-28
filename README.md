@@ -48,7 +48,7 @@ The results show clear similarities to the dataset (structured elements, shadows
 > Work in progress
 >
 > Results with first model after ~200 epochs of training:
-> <img src="img/color_training.png" width=800>
+> <img src="img/color_training.png" width=700>
 
 
 
