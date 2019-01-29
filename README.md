@@ -15,7 +15,7 @@ Work in progress. Code coming later.
 The generative adversarial network consists of two neural networks, the discriminator and generator.
 The generator generates a new pokemon from a random noise vector. The fake image as well as real sprites are fed into the discriminator network, which attempts to determine which is real. The below figure illustrates the structure more clearly.
 
-<img src="img/model.png" width=500>
+<img src="img/model.png" width=900>
 
 
 ### Convergence
