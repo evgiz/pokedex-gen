@@ -143,7 +143,7 @@ if __name__ == "__main__":
         gan = GAN(sess, size=64, channels=3)
         sess.run(tf.global_variables_initializer())
 
-        pokebatch = PokeBatch(gray=False, resize=(64, 64))
+        pokebatch = PokeBatch(resize=(64, 64))
         saver = tf.train.Saver()
 
         print("===================================")
@@ -199,7 +199,7 @@ if __name__ == "__main__":
             if epoch % 10 == 0:
                 if not os.path.exists("model/"):
                     os.mkdir("model/")
-                saver.save(sess, "model/"+version+"/model_"+str(epoch+restore_model))
+                saver.save(sess, "model/model_"+str(epoch))
                 print("Saved checkpoint.")
 
             # ============================= #
